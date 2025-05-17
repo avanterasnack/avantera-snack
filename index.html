@@ -1,0 +1,132 @@
+ <!DOCTYPE html>
+ <html lang="id">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Avantera Snack</title>
+   <style>
+     body {
+       font-family: 'Segoe UI', sans-serif;
+       margin: 0;
+       padding: 0;
+       background-color: #f5f5f5;
+       color: #333;
+     }
+     header {
+       background-color: #111;
+       color: gold;
+       padding: 20px;
+       text-align: center;
+     }
+     .content {
+       padding: 20px;
+       text-align: center;
+     }
+     .gallery {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+       gap: 15px;
+       margin-top: 20px;
+     }
+     .gallery img {
+       width: 100%;
+       border-radius: 10px;
+       box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+     }
+     .price-list {
+       margin-top: 30px;
+       text-align: left;
+       max-width: 400px;
+       margin: auto;
+     }
+     .price-list ul {
+       list-style-type: none;
+       padding: 0;
+     }
+     .price-list li {
+       background: #fff;
+       padding: 10px;
+       margin-bottom: 8px;
+       border-radius: 8px;
+       box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+     }
+     .testimoni {
+       margin-top: 40px;
+       background-color: #fff;
+       padding: 20px;
+       border-radius: 12px;
+       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+       max-width: 600px;
+       margin-left: auto;
+       margin-right: auto;
+     }
+     .testimoni h2 {
+       margin-bottom: 15px;
+     }
+     .testi-item {
+       font-style: italic;
+       margin-bottom: 15px;
+       border-left: 4px solid gold;
+       padding-left: 10px;
+     }
+     .wa-button {
+       display: inline-block;
+       margin-top: 30px;
+       padding: 12px 20px;
+       background-color: #25D366;
+       color: white;
+       border-radius: 30px;
+       text-decoration: none;
+       font-weight: bold;
+       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+     }
+     footer {
+       background: #222;
+       color: #aaa;
+       padding: 15px;
+       text-align: center;
+       font-size: 14px;
+       margin-top: 50px;
+     }
+   </style>
+ </head>
+ <body>
+   <header>
+     <h1>Avantera Snack</h1>
+   </header>
+
+   <div class="content">
+     <p>Snack rumahan dengan rasa premium, harga bersahabat!</p>
+
+     <div class="gallery">
+       <img src="brownies1.jpg" alt="Kripik Brownies 1" />
+       <img src="brownies2.jpg" alt="Kripik Brownies 2" />
+       <img src="brownies3.jpg" alt="Kripik Brownies 3" />
+     </div>
+
+     <div class="price-list">
+       <h2>Daftar Harga:</h2>
+       <ul>
+         <li>Kripik Brownies Cokelat – Rp12.000</li>
+         <li>Kripik Brownies Keju – Rp13.000</li>
+         <li>Kripik Brownies Matcha – Rp14.000</li>
+       </ul>
+     </div>
+
+     <div class="testimoni">
+       <h2>Testimoni Pelanggan</h2>
+       <div class="testi-item">"Rasanya enak banget! Manisnya pas dan teksturnya renyah." – Lina, Bandung</div>
+       <div class="testi-item">"Anak-anak suka banget, apalagi yang rasa cokelat!" – Dwi, Jakarta</div>
+       <div class="testi-item">"Cocok buat camilan sore. Harganya juga bersahabat." – Rina, Surabaya</div>
+     </div>
+
+     <a class="wa-button" href="https://wa.me/62881027964080?text=Halo%20saya%20mau%20pesan%20Kripik%20Brownies" target="_blank">
+       Order via WhatsApp
+     </a>
+   </div>
+
+   <footer>
+     © 2025 Avantera Snack. Order via WA: 0881-0279-64080
+   </footer>
+ </body>
+ </html>
