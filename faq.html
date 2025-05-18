@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAQ - Avantera Snack</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .faq-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    .faq {
+      margin-bottom: 25px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.6s ease forwards;
+    }
+
+    .faq:nth-child(1) { animation-delay: 0.2s; }
+    .faq:nth-child(2) { animation-delay: 0.4s; }
+    .faq:nth-child(3) { animation-delay: 0.6s; }
+    .faq:nth-child(4) { animation-delay: 0.8s; }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .faq h3 {
+      color: #6b3e26;
+      margin-bottom: 10px;
+    }
+
+    .faq p {
+      margin: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f5f5f5;
+      color: #6b3e26;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Frequently Asked Questions (FAQ)</h1>
+  </header>
+
+  <section class="faq-container">
+    <div class="faq">
+      <h3>1. Apakah Avantera Snack menerima pesanan dalam jumlah besar?</h3>
+      <p>Ya, kami menerima pesanan dalam jumlah besar untuk acara seperti ulang tahun, rapat kantor, atau arisan. Silakan hubungi kami minimal H-3 sebelum acara.</p>
+    </div>
+
+    <div class="faq">
+      <h3>2. Bagaimana cara pemesanan produk?</h3>
+      <p>Anda bisa memesan melalui halaman formulir di website kami atau langsung melalui WhatsApp kami di bagian kontak.</p>
+    </div>
+
+    <div class="faq">
+      <h3>3. Berapa lama waktu pengiriman?</h3>
+      <p>Pengiriman biasanya memakan waktu 1–2 hari kerja tergantung lokasi Anda. Untuk area kota besar, bisa lebih cepat.</p>
+    </div>
+
+    <div class="faq">
+      <h3>4. Apakah kripik brownies bisa dikirim ke luar kota?</h3>
+      <p>Ya, kami melayani pengiriman ke luar kota sampai luar negeri menggunakan jasa kurir terpercaya dengan packaging aman.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Avantera Snack. All rights reserved.</p>
+  </footer>
+</body>
+</html>

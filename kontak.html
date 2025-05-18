@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontak - Avantera Snack</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .kontak-container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #f3d1da;
+      border-radius: 10px;
+      transform: translateX(-50px);
+      opacity: 0;
+      animation: slideLeftIn 0.8s ease-out forwards;
+    }
+
+    @keyframes slideLeftIn {
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    .kontak-container h2 {
+      color: #e75a84;
+      margin-bottom: 20px;
+    }
+
+    .kontak-info {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    .kontak-info a {
+      color: #e75a84;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .kontak-info a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 0 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f5f5f5;
+      color: #6b3e26;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hubungi Kami</h1>
+  </header>
+
+  <section class="kontak-container">
+    <h2>Informasi Kontak</h2>
+    <div class="kontak-info">
+      <p><strong>Alamat:</strong> Jl. Patria Permai BD 02, Surabaya, Indonesia</p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/62881027964080" target="_blank">+62 881-0279-64080</a></p>
+      <p><strong>Email:</strong> <a href="mailto:browniesku@avantera.id">avanterasnack@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Avantera Snack. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Produk Kami - Brownies</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+
+    header {
+      background-color: #fefefe;
+      text-align: center;
+      padding: 40px 20px 20px;
+      animation: fadeInTop 1s ease-in;
+    }
+
+    header h1 {
+      color: #d04e68;
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #777;
+      font-size: 16px;
+      margin-top: 0;
+    }
+
+    .produk-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+      background-color: #f8dce2;
+    }
+
+    .produk-item {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 300px;
+      text-align: center;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s ease forwards;
+    }
+
+    .produk-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .produk-item:hover img {
+      transform: scale(1.05);
+    }
+
+    .produk-item h3 {
+      margin: 10px 0 5px;
+      color: #d04e68;
+    }
+
+    .produk-item p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    footer {
+      background-color: #fefefe;
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      font-size: 14px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInTop {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Produk Brownies Kami</h1>
+    <p>Camilan renyah dengan rasa premium</p>
+  </header>
+
+  <section class="produk-container">
+    <div class="produk-item" style="animation-delay: 0.2s;">
+      <img src="brownies1.jpg" alt="Brownies Original" />
+      <h3>Brownies Original</h3>
+      <p>Brownies klasik dengan rasa coklat yang kaya dan tekstur lembut.</p>
+    </div>
+    <div class="produk-item" style="animation-delay: 0.4s;">
+      <img src="brownies2.jpg" alt="Brownies Keju" />
+      <h3>Brownies Keju</h3>
+      <p>Dengan keju parut di tengah, cocok untuk pecinta keju.</p>
+    </div>
+    <div class="produk-item" style="animation-delay: 0.6s;">
+      <img src="brownies3.jpg" alt="Brownies Matcha" />
+      <h3>Brownies Matcha</h3>
+      <p>Perpaduan unik antara brownies coklat putih dan aroma matcha yang menggoda.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Avantera Snack. All rights reserved.</p>
+  </footer>
+</body>
+</html>

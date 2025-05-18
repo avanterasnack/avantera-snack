@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Testimoni Pelanggan - Avantera Snack</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff8f8;
+    }
+
+    header {
+      background-color: #fefefe;
+      text-align: center;
+      padding: 40px 20px 20px;
+      animation: fadeInTop 1s ease-in;
+    }
+
+    header h1 {
+      color: #6b3e26;
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .testimoni-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    .testimoni {
+      background-color: #f9f9f9;
+      border-left: 5px solid #6b3e26;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s ease forwards;
+    }
+
+    .testimoni:nth-child(n) {
+      animation-delay: calc(0.15s * var(--i));
+    }
+
+    .testimoni p {
+      margin: 0;
+      font-style: italic;
+    }
+
+    .testimoni h4 {
+      margin-top: 10px;
+      text-align: right;
+      color: #6b3e26;
+    }
+
+    footer {
+      background-color: #fefefe;
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      font-size: 14px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInTop {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Testimoni Pelanggan</h1>
+  </header>
+
+  <section class="testimoni-container">
+    <!-- 20 Testimoni -->
+    <div class="testimoni" style="--i:1;"><p>"Avantera benar-benar enak banget! Teksturnya lembut, rasa cokelatnya nendang."</p><h4>- Andi, Surabaya</h4></div>
+    <div class="testimoni" style="--i:2;"><p>"Aku udah langganan 3x dan rasanya konsisten banget! Anak-anak suka banget."</p><h4>- Rina, Surabaya</h4></div>
+    <div class="testimoni" style="--i:3;"><p>"Packaging-nya rapi, pengiriman cepat, dan rasanya bikin nagih."</p><h4>- Dimas, Surabaya</h4></div>
+    <div class="testimoni" style="--i:4;"><p>"Rasa keju-nya pas, nggak bikin enek. Top banget!"</p><h4>- Sari, Jakarta</h4></div>
+    <div class="testimoni" style="--i:5;"><p>"Baru pertama coba, langsung jatuh cinta!"</p><h4>- Yusuf, Bandung</h4></div>
+    <div class="testimoni" style="--i:6;"><p>"Kualitas premium banget. Recommended buat hampers."</p><h4>- Fira, Semarang</h4></div>
+    <div class="testimoni" style="--i:7;"><p>"Varian matcha-nya beda dari yang lain, wangi banget."</p><h4>- Hendra, Bogor</h4></div>
+    <div class="testimoni" style="--i:8;"><p>"Cocok buat temen ngeteh di sore hari. Love it!"</p><h4>- Dian, Yogyakarta</h4></div>
+    <div class="testimoni" style="--i:9;"><p>"Dikirim cepat, rasa tetap fresh walau luar kota."</p><h4>- Kevin, Medan</h4></div>
+    <div class="testimoni" style="--i:10;"><p>"Brownies-nya kayak homemade banget, lembut dan padat."</p><h4>- Tania, Solo</h4></div>
+    <div class="testimoni" style="--i:11;"><p>"Udah cobain semua varian, semua enak!"</p><h4>- Bagas, Bekasi</h4></div>
+    <div class="testimoni" style="--i:12;"><p>"Pas banget buat hampers lebaran kemarin."</p><h4>- Intan, Tangerang</h4></div>
+    <div class="testimoni" style="--i:13;"><p>"Anak-anak nggak berhenti ngemil. Harus sembunyiin stok!"</p><h4>- Lilis, Malang</h4></div>
+    <div class="testimoni" style="--i:14;"><p>"Teksturnya renyah, nggak keras. Nagih banget."</p><h4>- Reza, Makassar</h4></div>
+    <div class="testimoni" style="--i:15;"><p>"Rasa manisnya pas. Gak bikin bosan."</p><h4>- Mia, Palembang</h4></div>
+    <div class="testimoni" style="--i:16;"><p>"Cocok buat semua umur. Nenekku juga suka!"</p><h4>- Niko, Cirebon</h4></div>
+    <div class="testimoni" style="--i:17;"><p>"Desain kemasannya lucu dan rapi. Bisa jadi kado juga."</p><h4>- Ayu, Bali</h4></div>
+    <div class="testimoni" style="--i:18;"><p>"Rasa dan aroma cokelatnya bikin relax. Healing snack."</p><h4>- Wulan, Depok</h4></div>
+    <div class="testimoni" style="--i:19;"><p>"Favorit keluarga setiap akhir pekan."</p><h4>- Ilham, Banjarmasin</h4></div>
+    <div class="testimoni" style="--i:20;"><p>"Pengalaman belanja terbaik! CS-nya juga ramah."</p><h4>- Citra, USA</h4></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Avantera Snack. All rights reserved.</p>
+  </footer>
+</body>
+</html>
